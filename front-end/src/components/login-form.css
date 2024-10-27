@@ -1,0 +1,78 @@
+
+.form-container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.login-form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d7e3fcb4;
+    height: 100vh;
+    width: 35%;
+    gap:50px;
+    padding: 35px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 100%;
+}
+
+.input-container>label{
+    color:var(--dark);
+    font-size: 20px;
+}
+.input-container>input{
+    color: var(--dark);
+    font-weight: 500;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.464);
+    outline-color: none;
+}
+.input-container>input:focus,.input-container>input:active{
+    outline-color: var(--dark);
+}
+.login-form>button{
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    color: var(--dark);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.464);
+
+}
+.login-form>button:hover{
+    cursor: pointer;
+}
+.input-container>label,.input-container>input,.login-form>button{
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    border: none;
+}
+.forgot-link-container{
+    display: flex;
+    width: 100%;
+    align-items: start;
+   
+}
+.forgot-link-container>a{
+    color:var(--dark);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+}

@@ -1,0 +1,20 @@
+.home-option{
+    width: 200px;
+    height: 100px;
+    text-align:center;
+    border-radius: 5px;
+    font-size: 24px;
+    color:var(--dark);
+    font-weight: 600;
+    transition: background-color 350ms ease-in-out;
+    transition: box-shadow 350ms ease-in;
+    margin: auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.home-option:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.611);
+
+}
